@@ -3,7 +3,7 @@ package com.designPattern.creational;
 public class Main {
     public static void main(String[] arg){
 
-        User user =  User.bulider()
+        User user =  User.builder()
                 .name("simso")
                 .age(27)
                 .height(170)

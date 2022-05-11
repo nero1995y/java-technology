@@ -8,29 +8,29 @@ public class User {
     private int iq;
 
     // 객체 생성
-    public static UserBulider bulider(){
-        return new UserBulider();
+    public static UserBuilder builder(){
+        return new UserBuilder();
     }
 
-    static class UserBulider{
+    static class UserBuilder {
         String name;
         int age;
         int height;
         int iq;
 
-        UserBulider name(String name){
+        UserBuilder name(String name){
             this.name = name;
             return this;
         }
-        UserBulider age(int age){
+        UserBuilder age(int age){
             this.age = age;
             return this;
         }
-        UserBulider height(int height){
+        UserBuilder height(int height){
             this.height = height;
             return this;
         }
-        UserBulider iq(int iq){
+        UserBuilder iq(int iq){
             this.iq = iq;
             return this;
         }
